@@ -1,0 +1,32 @@
+{
+  "name": "baseball-game",
+  "version": "1.0.0",
+  "description": "A simple single-file JavaScript game.",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"build": "webpack",
+		"start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sernadesigns/baseball-game.git"
+  },
+  "keywords": [],
+  "author": "Michael Serna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sernadesigns/baseball-game/issues"
+  },
+  "homepage": "https://github.com/sernadesigns/baseball-game#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
