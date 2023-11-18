@@ -6,7 +6,6 @@
 /test/ChangesAndRemovals
 /benchmark/js
 /benchmark/fixtures
-/dist
 /examples/**/dist
 /coverage
 .DS_Store
