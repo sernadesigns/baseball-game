@@ -1,4 +1,5 @@
 const path = require('path');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
 	entry: './app.js',
@@ -24,5 +25,12 @@ module.exports = {
 		alias: {
 			'@app': path.resolve(__dirname, 'lib')
 		}
-	}
+	},
+	plugins: [
+		new CopyWebpackPlugin({
+			patterns: [
+				{ from: 'index.html', to: '' }
+			]
+		})
+	]
 };
