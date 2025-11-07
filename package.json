@@ -17,20 +17,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start": "http-server"
+    "start": "npm run build && http-server"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.0",
-    "babel-loader": "^8.1.0",
-    "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11"
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "babel-loader": "^10.0.0",
+    "http-server": "^14.1.1",
+    "webpack": "^5.102.1",
+    "webpack-cli": "^6.0.1"
   },
   "dependencies": {
     "lodash": "^4.17.15",
     "mitt": "^3.0.1"
   },
   "engines": {
-    "node": ">=16.19.1 <17"
+    "node": ">=18.0.0"
   }
 }
